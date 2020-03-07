@@ -2,3 +2,5 @@
 /.idea
 # node related modules
 /node_modules
+/.cache
+/dist
