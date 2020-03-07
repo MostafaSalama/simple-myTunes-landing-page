@@ -1,0 +1,23 @@
+{
+  "name": "simple-my-tunes-clone",
+  "version": "1.0.0",
+  "description": "A simple myTunes landing page clone",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MostafaSalama/simple-myTunes-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MostafaSalama/simple-myTunes-landing-page/issues"
+  },
+  "homepage": "https://github.com/MostafaSalama/simple-myTunes-landing-page#readme",
+  "devDependencies": {
+    "sass": "^1.26.2"
+  }
+}
