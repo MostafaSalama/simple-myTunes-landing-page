@@ -1,10 +1,31 @@
-$nav_background: #070707;
-$nav_link_color : #D3EEEE;
+$nav_background: #333333;
+$nav_link_color : #eee;
 $nav_link_hover_color : #444444;
 
 .nav {
-  background-color: $nav_background;
   > .nav-list {
+    background-color: $nav_background;
+    padding: 15px;
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    > .nav-list--item {
+      margin-left: 50px;
+      text-align: center;
+      position: relative;
+      padding:0 20px;
+      top: 5px;
+      &:hover {
+        background-color: $nav_link_hover_color;
+        transform: scale(1.2);
+      }
+      > a {
+        color : $nav_link_color;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
   }
 }
