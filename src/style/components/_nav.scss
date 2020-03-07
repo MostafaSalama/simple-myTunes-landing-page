@@ -1,0 +1,10 @@
+$nav_background: #070707;
+$nav_link_color : #D3EEEE;
+$nav_link_hover_color : #444444;
+
+.nav {
+  background-color: $nav_background;
+  > .nav-list {
+    list-style: none;
+  }
+}
