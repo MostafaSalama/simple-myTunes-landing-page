@@ -1,0 +1,24 @@
+@mixin my_mix(){
+  background-color: #333333;
+  text-align: center;
+  color : #eeeeee;
+  position: relative;
+  top: -20px;
+}
+#music {
+  @include my_mix
+}
+#music h2 {
+  font-size: 2rem;
+  position: relative;
+  top: 30px;
+}
+#music h3 {
+  margin-top: 40px;
+}
+#music p {
+  margin-top: 10px;
+}
+img {
+  max-width: 100%;
+}
