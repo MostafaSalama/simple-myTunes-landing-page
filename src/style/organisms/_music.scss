@@ -22,3 +22,11 @@
 img {
   max-width: 100%;
 }
+#music button {
+  background-color: $button_background_secondary;
+  margin-bottom: 18px;
+  margin-top: 10px;
+  &:hover,&:focus {
+    background-color: $button_background_secondary_hover;
+  }
+}
