@@ -1,0 +1,23 @@
+#video {
+  text-align: center;
+  background-color: #F4F4F4;
+}
+#video button {
+  background-color: #103063;
+  &:hover {
+    background-color: #143f85;
+  }
+}
+#video h2 {
+  position: relative;
+  top: 30px;
+}
+#video p {
+  margin-top: 50px
+}
+#video .btn-container {
+  margin-top: 30px;
+}
+#video .image-container {
+  margin-top: 30px;
+}
